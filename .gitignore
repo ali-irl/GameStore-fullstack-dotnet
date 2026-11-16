@@ -1,0 +1,17 @@
+# .NET build & database artifacts
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+.vs/
+
+# React / Node artifacts
+node_modules/
+dist/
+.env
+.env.local
+
+# OS & Editor files
+.DS_Store
+Thumbs.db

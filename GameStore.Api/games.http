@@ -1,0 +1,31 @@
+GET http://localhost:5027/games
+###
+GET http://localhost:5027/games/1
+
+###
+POST http://localhost:5027/games
+Content-Type: application/json
+
+{
+  "name": "test game",
+  "genreId": 2,
+  "price":59.99,
+  "releaseDate": "2016-11-13"
+}
+
+###
+Put  http://localhost:5027/games/2
+Content-Type: application/json
+
+{  
+    "name": "overwtach2",
+  "genreId": 2,
+  "price":59.99,
+  "releaseDate": "2016-11-13"
+}
+
+###
+DELETE http://localhost:5027/games/3
+
+###
+GET http://localhost:5027/genres
